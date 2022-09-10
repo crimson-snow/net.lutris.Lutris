@@ -622,8 +622,8 @@ modules:
         /app/share/applications/${FLATPAK_ID}.desktop
     sources:
       - type: git
-        url: https://github.com/lutris/lutris.git
-        commit: 703df306b3bba3ab6ba8fc1400f526999f4ec7f0
+        url: https://github.com/crimson-snow/lutris.git
+        commit: e8ea081fb850576e76712e10c95989a97782db7f
     modules:
       - name: gnome-desktop
         buildsystem: meson
